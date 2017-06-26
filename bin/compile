@@ -68,7 +68,7 @@ esac
 
 indent "Installing Google Chrome from the $channel channel."
 
-PACKAGES="http://www.slimjetbrowser.com/chrome/lnx/chrome64_55.0.2883.75.deb libxss1 xvfb libxrandr-dev"
+PACKAGES="http://www.slimjetbrowser.com/chrome/lnx/chrome64_55.0.2883.75.deb libxss1 xvfb x11-xserver-utils"
 
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
 APT_STATE_DIR="$CACHE_DIR/apt/state"
